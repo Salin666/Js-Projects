@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Irish+Grover&family=Oleo+Script&display=swap');
+html {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  font-family: Bebas Neue, sans-serif;
+  max-width: 600px;
+  margin:0 auto;
+
+}
+img{
+  width: 90%;
+  height: auto;
+  margin-top: 24px;
+display: block;
+margin-left: auto;
+margin-right: auto;
+}
+img.loader{
+width: 20%;
+
+left:0;
+right:0;
+top:0;
+bottom:0;
+margin: 0 auto;
+position: fixed;
+top:50%;
+left:25%;
+transform:translate(-50%,-50%);
+}
+
+h2{
+  text-align: center;
+  margin-top: 25px;
+  margin-bottom: 15px;
+  font-size: 40px;
+  letter-spacing: 5px;
+}
+.loader{
+  position: fixed;
+  top:0;
+  bottom:0;
+  right:0;
+  left:0;
+  background:rgba(255,255,255,0.8)
+}
+
+
+
+/* image container */
+
+.image-container{
+
+  color: #000;
+}
+
